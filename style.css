@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Inter, sans-serif;
+}
+
+header, section {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 15%;
+    margin-right: 25%;
+}
+header img {
+    width: 120px;
+}
+
+header ul{
+    list-style: none;
+    gap: 10%;
+    display: flex;
+    color: #677788;
+    margin-top: 2%;
+    font-family: Inter, sans-serif;
+}
+
+#home, header ul li:hover {
+    color: #3791ff;
+    cursor: pointer;
+}
+
+section div h1 {
+    font-size: 4vw;
+    padding-top: 17%;
+    color: #274082;
+}
+section div img {
+    width: 120%;
+}
+section div h1 span{
+    display: block;
+    
+}
+
+section div p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #677788;
+}
+section div h1 label{
+    box-sizing: border-box;
+    background-color: #f9e4cb;
+    width: 185px;
+    height: 6px;
+    display: flex;
+    margin-top: -8px;
+}
