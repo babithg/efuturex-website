@@ -98,9 +98,14 @@ section div h1 label{
 
 .table {
     display: flex;
-    padding: 5% 15%;
+    padding: 5% 10%;
 }
 
 .box {
     width: 65%;
+    padding: 0% 1%;
+}
+
+.box p {
+    padding: 0% 20% 0% 0%;
 }
