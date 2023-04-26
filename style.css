@@ -51,7 +51,7 @@ section div h1 span{
 
 section div p {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 8px;
     color: #677788;
 }
 
@@ -98,7 +98,7 @@ section div h1 label{
 
 .table {
     display: flex;
-    padding: 5% 10%;
+    padding: 3% 10%;
 }
 
 .box {
@@ -108,4 +108,10 @@ section div h1 label{
 
 .box p {
     padding: 0% 20% 0% 0%;
+}
+
+svg {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
 }
