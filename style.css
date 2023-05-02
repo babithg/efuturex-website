@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     font-family: Inter, sans-serif;
+    box-sizing: border-box;
 }
 
 *::selection {
@@ -85,7 +86,6 @@ section div h1 label{
     margin-bottom: 1rem;
 }
 
-
 .main-container {
     margin: 0% 15%;
     display: flex;
@@ -106,12 +106,73 @@ section div h1 label{
     padding: 0% 1%;
 }
 
+.box svg path {
+    fill: #274082;
+}
+
 .box p {
     padding: 0% 20% 0% 0%;
 }
 
-svg {
+.box svg {
     width: 55px;
     height: 55px;
+    margin-bottom: 10px;
+}
+
+
+
+.about-tab {
+    text-align: center;
+    margin: 10%;
+}
+
+.details-tab {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+.details-tab .challenge {
+    width: 25%;
+}
+
+.list-tab {
+    padding-top: 10px;
+}
+
+.list-tab .catog-list {
+    list-style: none;
+}
+
+.catog-list li {
+    line-height: 30px;
+}
+
+.catog-list li ion-icon {
+    margin-right: 10px;
+}
+
+.challenge p {
+    font-size: medium;
+}
+
+
+.main-details-tab {
+    margin: 2% 14%;
+    width: 70%;
+    height: 100vh;
+}
+
+.section-challenge {
+    width: 100%;
+    height: 50%;
+    font-size: 13px;
+}
+
+.section-challenge span svg path {
+    fill: #274082;
+    width: 35px;
+    height: 35px;
     margin-bottom: 10px;
 }
